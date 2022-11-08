@@ -7,6 +7,12 @@ Repositório criado para realizar o desafio de projeto "Análise Exploratória d
  - Amazon Athena
  - Amazon QuickSight
 
+<h3> Dados utilizados nessa atividade</h3>
+
+- Superstore - retirado do Kaggle, disponível no link:
+
+  https://www.kaggle.com/datasets/roopacalistus/superstore
+
 ### Etapas para desenvolvimento
 
 ### Criando o bucket no Amazon S3
