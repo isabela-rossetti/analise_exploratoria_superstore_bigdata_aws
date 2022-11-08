@@ -54,8 +54,13 @@ Repositório criado para realizar o desafio de projeto "Análise Exploratória d
 
 ### Visualizando os dados no Amazon QuickSight
 
-- Datasets -> Create new dataset -> Athena -> Name Superstore-> Create datasource
-- Select superstore-> select table superstorenew -> Select -> Directly query your data -> Visualize
-- Criação de visualização de soma do lucro por categoria e regi
+- Datasets -> New dataset -> Athena -> Name Superstore-> Validate connection -> Create datasource
+- Select superstore-> select table superstore -> Select -> Directly query your data -> Visualize
+- Manage QuickSight -> Security & permissions -> região US-EAST (N. Virginia) -> Manage -> Select s3 buckets -> select athena-database-superstore -> finish -> save 
+- Criação de visualização em gráfico de soma do lucro por categoria de produto e região:
 
-![Grafico](https://github.com/isabela-rossetti/analise_exploratoria_superstore_bigdata_aws/blob/main/Grafico.jpg)
+![Grafico-Lucro](https://github.com/isabela-rossetti/analise_exploratoria_superstore_bigdata_aws/blob/main/Grafico-Lucro.png)
+
+- Criação de visualização em mapa contendo o lucro por região:
+
+![Grafico-Mapa](https://github.com/isabela-rossetti/analise_exploratoria_superstore_bigdata_aws/blob/main/Grafico-Mapa.png)
